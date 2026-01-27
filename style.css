@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.align-center { 
+    text-align: center;
+}
+html {
+    font-size: 100%;
+}
+body {
+    background-color: black;
+    background-position: center;
+}
+h1 {
+    font-size: 5rem;
+    font-family: serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    display: flex;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.header-left {
+    text-align: center;
+}
+
+.header-right {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+h1,h2,h3,h4,table {
+    color: aliceblue;          
+}
+
+.aliceblue {
+    color: aliceblue;
+}
+
+/*ボタン*/
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: brown;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+}
+
+.btn:hover {
+    background-color: #ffa76c;
+}
+
+
+/*フッター*/
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.page-footer {
+    background-image: url(backglound_img_smh.png) ;
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+}
+h4 {
+    text-align: center;
+}
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.fffaed {
+    color: #fffaed;
+}
+.copyright {
+    background-color: #5b5c76;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: azure;
+}
+
+
+
+
+/*デスクトップ版*/
+
+@media (min-width: 800px) {
+    /*見出し*/
+    .page-title {
+        font-size: 5rem;
+    }
+    .heading-large {
+        font-size: 4rem;
+    }
+
+    /*ヘッダー*/
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+    .main-nav {
+        font-size: 2rem;
+    }
+
+    /*フッター*/
+    .page-footer {
+        background-image: url(backglound_img.png);
+        padding-top: 12rem
+    }
+    .info th {
+        padding-left: 2.5rem;
+    }
+    
+}
