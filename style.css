@@ -153,4 +153,9 @@ h4 {
         height: auto;
         width: auto;
     }
+    
+    /*history*/
+    .history-title {
+        font-size: 2rem;
+    }
 }
